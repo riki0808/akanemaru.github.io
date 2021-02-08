@@ -1,5 +1,5 @@
-.main-page{
-  
+*{
+  letter-spacing: 0.3px;
 }
 
 /* header START*/
@@ -21,39 +21,135 @@ header h1{
 /* section01 START*/
 .section01{
   background-color: #ededef;
-  padding: 10% 0;
-  position: relative;
+  padding: 10% 0 0 0;
 }
 
 .section01-contents{
   background-color: #ededef;
-  color: #320708;
-  
+  color: #320708; 
+  padding: 0px;
+  margin: 0px;
 }
 
+.section01-img-box{
+  padding: 0px;
+}
+.section01-text{
+  padding: 0px;
+}
 
 .section01-title{
   font-size: 5vw;
   font-family: serif;
-  margin-right: 45%;
-  padding: 4% 0;
+  font-weight: bold;
+  padding: 6% 0;
   margin-bottom: 0px;
-  text-align: center;
+  text-align: left;
 }
 
 .section01-sentence{
-  text-align: center;
+  text-align: left;
   font-size: 2.5vw;
-  margin-right: 43%;
-  padding-bottom: 5%;
   margin-bottom: 0px;
+  font-family: serif;
 }
 
-.section01-img{
-  /* position: absolute; */
-  top: 10%;
-  left: 60%;
-}
+
+/* レスポンシブ対応START */
+@media (min-width: 992px) {
+  .section01-img-box{
+    text-align: right;
+  }
+  .section01-img{
+    width: 60%;
+    height: auto;
+    padding-right: 5%;
+  }
+  .section01-text{
+    margin: auto 0;
+  }
+  .section01-title{
+    padding-left: 5%;
+    font-size: 3vw;
+  }
+  .section01-sentence{
+    padding-left: 5%;
+    font-size: 1.5vw;
+  }
+ }
+ @media (max-width: 991.98px) {
+  .section01-img-box{
+    text-align: right;
+  }
+  .section01-img{
+    width: 60%;
+    height: auto;
+    padding-right: 5%;
+  }
+  .section01-text{
+    margin: auto 0;
+  }
+  .section01-title{
+    padding-left: 1%;
+    font-size: 3.4vw;
+  }
+  .section01-sentence{
+    padding-left: 1%;
+    font-size: 1.9vw;
+  }
+ }
+ @media (max-width: 767.98px) {
+  .section01-img-box{
+    text-align: right;
+  }
+  .section01-img{
+    width: 80%;
+    height: auto;
+    padding-right: 0%;
+  }
+  .section01-text{
+    margin: auto 0;
+  }
+  .section01-title{
+    padding-left: 8%;
+    font-size: 4vw;
+  }
+  .section01-sentence{
+    padding-left: 8%;
+    font-size: 2vw;
+  }
+ }
+ @media (max-width: 575.98px) {
+  .section01-img-box{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+  }
+  .section01-img{
+    width: 53%;
+    height: auto;
+    position: absolute;
+    left: 23.5%;
+  }
+  .section01-text{
+    padding-top: 46%;
+  }
+  .section01-title{
+    text-align: center;
+    padding-left: 0px;
+    font-size: 6vw;
+  }
+  .section01-sentence{
+    text-align: center;
+    padding-left: 0px;
+    font-size: 3.4vw;
+  }
+ }
+ /* レスポンシブ対応END */
+
+ .section01-btn-box{
+   padding: 10% 20% 0;
+ }
 
 /* section01 END*/
 
@@ -99,13 +195,18 @@ header h1{
 }
 
 .section03-point{
-  font-size: 25px;
+  font-size: 24px;
   padding: 3px;
   font-family: serif;
   font-weight: bold;
 }
 
 .text{
+  font-family: serif;
+  font-weight: bold;
+}
+
+.text2{
   font-family: serif;
 }
 
@@ -148,7 +249,7 @@ header h1{
 }
 
 .section04-sentence{
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
 
 .otoku{
@@ -165,6 +266,7 @@ header h1{
 
 .section04-set-title{
   font-family: serif;
+  line-height: 1.5;
 }
 
 .section04-soryo{
@@ -176,10 +278,11 @@ header h1{
   border-radius: 100vh;
   max-width: 36%;
   margin-left: 11%;
+  margin: auto;
 }
 
 .soryo-text{
-  font-size: 3vw;
+  font-size: 2.9vw;
   color: #fff;
   margin: 0px;
   padding: 3%;
@@ -200,6 +303,7 @@ header h1{
 }
 
 .content1{
+  border-radius: 8%;
 }
 
 .section04-list{
@@ -269,7 +373,7 @@ a.btn--radius {
   color: #1a1a1a;
 }
 
-.section06-product01-back,.section06-product03-back,{
+.section06-product01-back,.section06-product03-back{
   margin-bottom: 13%;
   position: relative;
 }
@@ -393,8 +497,8 @@ a.btn--radius {
 /* レスポンシブ対応 END */
 
 .section06-text{
-  text-align: center;
-  font-size: 2vw;
+  text-align: left;
+  font-size: 2.5vw;
   font-family: serif;
 }
 
