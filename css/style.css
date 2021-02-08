@@ -1,5 +1,5 @@
-.main-page{
-  
+*{
+  letter-spacing: 0.3px;
 }
 
 /* header START*/
@@ -21,39 +21,135 @@ header h1{
 /* section01 START*/
 .section01{
   background-color: #ededef;
-  padding: 10% 0;
-  position: relative;
+  padding: 10% 0 0 0;
 }
 
 .section01-contents{
   background-color: #ededef;
-  color: #320708;
-  
+  color: #320708; 
+  padding: 0px;
+  margin: 0px;
 }
 
+.section01-img-box{
+  padding: 0px;
+}
+.section01-text{
+  padding: 0px;
+}
 
 .section01-title{
   font-size: 5vw;
   font-family: serif;
-  margin-right: 45%;
-  padding: 4% 0;
+  font-weight: bold;
+  padding: 6% 0;
   margin-bottom: 0px;
-  text-align: center;
+  text-align: left;
 }
 
 .section01-sentence{
-  text-align: center;
+  text-align: left;
   font-size: 2.5vw;
-  margin-right: 43%;
-  padding-bottom: 5%;
   margin-bottom: 0px;
+  font-family: serif;
 }
 
-.section01-img{
-  /* position: absolute; */
-  top: 10%;
-  left: 60%;
-}
+
+/* トップのレスポンシブ */
+@media (min-width: 992px) {
+  .section01-img-box{
+    text-align: right;
+  }
+  .section01-img{
+    width: 60%;
+    height: auto;
+    padding-right: 5%;
+  }
+  .section01-text{
+    margin: auto 0;
+  }
+  .section01-title{
+    padding-left: 5%;
+    font-size: 3vw;
+  }
+  .section01-sentence{
+    padding-left: 5%;
+    font-size: 1.5vw;
+  }
+ }
+ @media (max-width: 991.98px) {
+  .section01-img-box{
+    text-align: right;
+  }
+  .section01-img{
+    width: 60%;
+    height: auto;
+    padding-right: 5%;
+  }
+  .section01-text{
+    margin: auto 0;
+  }
+  .section01-title{
+    padding-left: 1%;
+    font-size: 3.4vw;
+  }
+  .section01-sentence{
+    padding-left: 1%;
+    font-size: 1.9vw;
+  }
+ }
+ @media (max-width: 767.98px) {
+  .section01-img-box{
+    text-align: right;
+  }
+  .section01-img{
+    width: 80%;
+    height: auto;
+    padding-right: 0%;
+  }
+  .section01-text{
+    margin: auto 0;
+  }
+  .section01-title{
+    padding-left: 8%;
+    font-size: 4vw;
+  }
+  .section01-sentence{
+    padding-left: 8%;
+    font-size: 2vw;
+  }
+ }
+ @media (max-width: 575.98px) {
+  .section01-img-box{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+  }
+  .section01-img{
+    width: 53%;
+    height: auto;
+    position: absolute;
+    left: 23.5%;
+  }
+  .section01-text{
+    padding-top: 46%;
+  }
+  .section01-title{
+    text-align: center;
+    padding-left: 0px;
+    font-size: 6vw;
+  }
+  .section01-sentence{
+    text-align: center;
+    padding-left: 0px;
+    font-size: 3.4vw;
+  }
+ }
+ /* レスポンシブ対応END */
+
+ .section01-btn-box{
+   padding: 10% 20% 0;
+ }
 
 /* section01 END*/
 
@@ -66,7 +162,7 @@ header h1{
 }
 
 .back {
-  background-image: url("../img/筆の円.png");
+  background-image: url("../img2/pen.png");
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center;
@@ -99,7 +195,7 @@ header h1{
 }
 
 .section03-point{
-  font-size: 25px;
+  font-size: 24px;
   padding: 3px;
   font-family: serif;
   font-weight: bold;
@@ -107,7 +203,14 @@ header h1{
 
 .text{
   font-family: serif;
+  font-weight: bold;
 }
+
+.text2{
+  font-family: serif;
+}
+
+/* こだわり部分のレスポンス */
 
 @media (min-width: 992px) {
   .text {
@@ -129,7 +232,10 @@ header h1{
  
  @media (max-width: 575.98px) {
   .text {
-    font-size: 5.4vw;
+    font-size: 5.1vw;
+  }
+  .info{
+    padding: 0px;
   }
  }
 
@@ -148,16 +254,9 @@ header h1{
 }
 
 .section04-sentence{
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
 
-.otoku{
-  writing-mode:vertical-lr;
-  font-size: 4vw;
-  border-right: solid 1px;
-  font-family: serif;
-  margin-top: 2%;
-}
 
 .section04-set-box{
   margin:0px 20%;
@@ -165,79 +264,280 @@ header h1{
 
 .section04-set-title{
   font-family: serif;
+  line-height: 1.5;
 }
 
-.section04-soryo{
-  margin: 0 8%;
+.section04-charactor{
+  width: 60%;
+  height: auto;
 }
 
-.section04-soryo-back{
-  background-color: red;
-  border-radius: 100vh;
-  max-width: 36%;
-  margin-left: 11%;
+
+
+/* お得セットのレスポンス */
+
+@media (min-width: 992px){
+  .otoku{
+    writing-mode:vertical-lr;
+    font-size: 2.8vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 2%;
+  }
+
+  .section04-charactor{
+    width: 35%;
+    height: auto;
+  }
+
+  .section04-soryo-back{
+    background-color: red;
+    border-radius: 100vh;
+    max-width: 13%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30%;
+  }
+  
+  .soryo-text{
+    color: #fff;
+    margin: 0px;
+    font-size: 2vw;
+    padding: 9%;
+  }
+  
+  .money{
+    font-weight: bold;
+    padding-right: 90px;
+    margin-left: 0%;
+    font-size: 3vw;
+    padding-left: 0%;
+  }
+  
+  .money-sub{
+    font-weight: normal;
+    font-size: 2vw;
+    padding-left: 5%;
+  }
+  
+  .content1{
+    border-radius: 8%;
+    width: 50%;
+    height: auto;
+  }
+  
+  .section04-list{
+    list-style: none;
+    font-family: serif;
+    padding-left: 0px;
+    font-size: 2vw;
+    margin: 5% 0 5% 0;
+  }
 }
 
-.soryo-text{
-  font-size: 3vw;
-  color: #fff;
-  margin: 0px;
-  padding: 3%;
+@media (max-width: 991.98px){
+  .otoku{
+    writing-mode:vertical-lr;
+    font-size: 4vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 2%;
+  }
+
+  .section04-charactor{
+    width: 50%;
+    height: auto;
+  }
+
+  .section04-soryo-back{
+    background-color: red;
+    border-radius: 100vh;
+    max-width: 29%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15%;
+  }
+  
+  .soryo-text{
+    color: #fff;
+    margin: 0px;
+    font-size: 4.5vw;
+    padding: 3%;
+  }
+  
+  .money{
+    font-weight: bold;
+    padding-right: 0px;
+    margin-left: -3%;
+    font-size: 6.5vw;
+    padding-left: 0%;
+  }
+  
+  .money-sub{
+    font-weight: normal;
+    font-size: 2vw;
+    padding-left: 5%;
+  }
+  
+  .content1{
+    border-radius: 8%;
+    width: 80%;
+    height: auto;
+  }
+  
+  .section04-list{
+    list-style: none;
+    font-family: serif;
+    padding-left: 0px;
+    font-size: 3.5vw;
+    margin: 10% 0 20% 0;
+  }
 }
 
-.money{
-  font-size: 4vw;
-  font-weight: bold;
-  padding-right: 0px;
-  padding-left: 4%;
-  margin-left: -3%;
+@media (max-width: 767.98px){
+  .otoku{
+    writing-mode:vertical-lr;
+    font-size: 4vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 2%;
+  }
+
+  .section04-charactor{
+    width: 55%;
+    height: auto;
+  }
+
+  .section04-soryo-back{
+    background-color: red;
+    border-radius: 100vh;
+    max-width: 26%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15%;
+  }
+  
+  .soryo-text{
+    color: #fff;
+    margin: 0px;
+    font-size: 4vw;
+    padding: 3%;
+  }
+  
+  .money{
+    font-weight: bold;
+    font-size: 6vw;
+    padding-right: 0px;
+    padding-left: 0%;
+    margin-left: -3%;
+    margin: auto 0px;
+  }
+  
+  .money-sub{
+    font-weight: normal;
+    font-size: 2vw;
+    padding-left: 5%;
+  }
+  
+  .content1{
+    border-radius: 8%;
+    width: 90%;
+    height: auto;
+  }
+  
+  .section04-list{
+    list-style: none;
+    font-family: serif;
+    padding-left: 0px;
+    font-size: 4vw;
+    margin: 10% 0 20% 0;
+  }
 }
 
-.money-sub{
-  font-size: 2vw;
-  font-weight: normal;
-  padding-left: 5%;
+@media (max-width: 575.98px){
+  .otoku{
+    writing-mode:vertical-lr;
+    font-size: 5vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 2%;
+  }
+
+  .section04-charactor{
+    width: 60%;
+    height: auto;
+  }
+
+  .section04-soryo-back{
+    background-color: red;
+    border-radius: 100vh;
+    max-width: 38%;
+    margin-left: 11%;
+    margin: auto;
+  }
+  
+  .soryo-text{
+    color: #fff;
+    margin: 0px;
+    font-size: 5vw;
+    padding: 3%;
+  }
+  
+  .money{
+    font-weight: bold;
+    font-size: 6vw;
+    padding-right: 0px;
+    padding-left: 0%;
+    margin-left: -3%;
+  }
+  
+  .money-sub{
+    font-weight: normal;
+    font-size: 2vw;
+    padding-left: 5%;
+  }
+  
+  .content1{
+    border-radius: 8%;
+    width: 100%;
+    height: auto;
+  }
+  
+  .section04-list{
+    list-style: none;
+    font-family: serif;
+    padding-left: 0px;
+    font-size: 3.7vw;
+    margin: 10% 0 20% 0;
+  }
 }
 
-.content1{
-}
-
-.section04-list{
-  list-style: none;
-  font-family: serif;
-  font-size: 3vw;
-  padding-left: 0px;
-}
-
-/* 以下ボタンのCSS */
-a.btn--red.btn--cubic{
-  background-color: #13ae67;
-  color: #fff;
-  font-size: 5vw;
-  margin-bottom: 100px;
-}
-
-a.btn--red.btn--cubic {
-  border-bottom: 5px solid #0e7a46;
-}
-
-a.btn--red.btn--cubic:hover {
-  margin-top: 3px;
-  border-bottom: 2px solid #0e7a46;
-  font-weight: bold;
-}
-
-a.btn--radius {
-  border-radius: 100vh;
-}
-
-.fa-position-right {
-  position: absolute;
-  top: calc(50% - .5em);
-  right: 1rem;
-}
-
-/* 以上ボタンCSS */
+  /* 以下ボタンのCSS */
+  a.btn--red.btn--cubic{
+    background-color: #13ae67;
+    color: #fff;
+    font-size: 2.5vw;
+    margin-bottom: 10%;
+    width: 80%;
+  }
+  a.btn--red.btn--cubic {
+    border-bottom: 5px solid #0e7a46;
+  }
+  a.btn--red.btn--cubic:hover {
+    margin-top: 3px;
+    border-bottom: 2px solid #0e7a46;
+    font-weight: bold;
+  }
+  a.btn--radius {
+    border-radius: 100vh;
+  }
+  .fa-position-right {
+    position: absolute;
+    top: calc(50% - .5em);
+    right: 1rem;
+  }
+  /* 以上ボタンCSS */
+  
 /* section04 END*/
 
 /* section05 START*/
@@ -252,12 +552,46 @@ a.btn--radius {
   padding-bottom: 3%;
 }
 
-.otoku2{
-  writing-mode:vertical-lr;
-  font-size: 4vw;
-  border-right: solid 1px;
-  font-family: serif;
-  margin-top: 5%;
+/* 商品一覧のレスポンシブ */
+
+@media (min-width: 992px){
+  .otoku2{
+    writing-mode:vertical-lr;
+    font-size: 2.8vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 991.98px){
+  .otoku2{
+    writing-mode:vertical-lr;
+    font-size: 4vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 767.98px){
+  .otoku2{
+    writing-mode:vertical-lr;
+    font-size: 4vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 575.98px){
+  .otoku2{
+    writing-mode:vertical-lr;
+    font-size: 5vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 5%;
+  }
 }
 
 /* section05 END*/
@@ -269,19 +603,19 @@ a.btn--radius {
   color: #1a1a1a;
 }
 
-.section06-product01-back,.section06-product03-back,{
-  margin-bottom: 13%;
+.section06-product01-back,.section06-product03-back{
+  margin-bottom: 21%;
   position: relative;
 }
 
 .section06-product02-back,.section06-product04-back{
-  margin-bottom: 13%;
+  margin-bottom: 21%;
   text-align: right;
   position: relative;
 }
 
 .section06-product05-back{
-  padding-bottom: 13%;
+  padding-bottom: 21%;
   position: relative;
 }
 
@@ -297,7 +631,7 @@ a.btn--radius {
   padding-top: 10%;
 }
 
-/* レスポンシブ対応 START */
+/* 各種どらやきのレスポンシブ */
 /* 992px以上 */
 @media (min-width: 992px) {
   .section06-product01-img,.section06-product02-img,.section06-product03-img,.section06-product04-img,.section06-product05-img {
@@ -317,7 +651,9 @@ a.btn--radius {
     left: 28%;
   }
   .section06-text{
-    padding: 7% 10% 0;
+    padding-top: 7%;
+    padding-right: 10%;
+    padding-left: 25%;
   }
  }
  
@@ -340,7 +676,9 @@ a.btn--radius {
     left: 25%;
   }
   .section06-text{
-    padding: 7% 10% 0;
+    padding-top: 7%;
+    padding-right: 10%;
+    padding-left: 22%;
   }
  }
  
@@ -363,7 +701,9 @@ a.btn--radius {
     left: 25%;
   }
   .section06-text{
-    padding: 11% 10% 0;
+    padding-top: 11%;
+    padding-right: 10%;
+    padding-left: 20%;
   }
  }
  /* 575px未満 */
@@ -387,14 +727,13 @@ a.btn--radius {
   .section06-text{
     padding-top: 14%;
     padding-right: 10%;
-    padding-left: 10%;
+    padding-left: 15%;
   }
 }
-/* レスポンシブ対応 END */
 
 .section06-text{
-  text-align: center;
-  font-size: 2vw;
+  text-align: left;
+  font-size: 2.5vw;
   font-family: serif;
 }
 
