@@ -1,0 +1,747 @@
+*{
+  letter-spacing: 0.3px;
+}
+
+/* header START*/
+.header{
+  background-color: #320708;
+  color: #fff;
+}
+
+header h1{
+  padding: 5% 0;
+  background-color: #320708;
+  color: #fff;
+  margin: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 5vw;
+}
+
+/* section01 START*/
+.section01{
+  background-color: #ededef;
+  padding: 10% 0 0 0;
+}
+
+.section01-contents{
+  background-color: #ededef;
+  color: #320708; 
+  padding: 0px;
+  margin: 0px;
+}
+
+.section01-img-box{
+  padding: 0px;
+}
+.section01-text{
+  padding: 0px;
+}
+
+.section01-title{
+  font-size: 5vw;
+  font-family: serif;
+  font-weight: bold;
+  padding: 6% 0;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.section01-sentence{
+  text-align: left;
+  font-size: 2.5vw;
+  margin-bottom: 0px;
+  font-family: serif;
+}
+
+
+/* トップのレスポンシブ */
+@media (min-width: 992px) {
+  .section01-img-box{
+    text-align: right;
+  }
+  .section01-img{
+    width: 60%;
+    height: auto;
+    padding-right: 5%;
+  }
+  .section01-text{
+    margin: auto 0;
+  }
+  .section01-title{
+    padding-left: 5%;
+    font-size: 3vw;
+  }
+  .section01-sentence{
+    padding-left: 5%;
+    font-size: 1.5vw;
+  }
+ }
+ @media (max-width: 991.98px) {
+  .section01-img-box{
+    text-align: right;
+  }
+  .section01-img{
+    width: 60%;
+    height: auto;
+    padding-right: 5%;
+  }
+  .section01-text{
+    margin: auto 0;
+  }
+  .section01-title{
+    padding-left: 1%;
+    font-size: 3.4vw;
+  }
+  .section01-sentence{
+    padding-left: 1%;
+    font-size: 1.9vw;
+  }
+ }
+ @media (max-width: 767.98px) {
+  .section01-img-box{
+    text-align: right;
+  }
+  .section01-img{
+    width: 80%;
+    height: auto;
+    padding-right: 0%;
+  }
+  .section01-text{
+    margin: auto 0;
+  }
+  .section01-title{
+    padding-left: 8%;
+    font-size: 4vw;
+  }
+  .section01-sentence{
+    padding-left: 8%;
+    font-size: 2vw;
+  }
+ }
+ @media (max-width: 575.98px) {
+  .section01-img-box{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+  }
+  .section01-img{
+    width: 53%;
+    height: auto;
+    position: absolute;
+    left: 23.5%;
+  }
+  .section01-text{
+    padding-top: 46%;
+  }
+  .section01-title{
+    text-align: center;
+    padding-left: 0px;
+    font-size: 6vw;
+  }
+  .section01-sentence{
+    text-align: center;
+    padding-left: 0px;
+    font-size: 3.4vw;
+  }
+ }
+ /* レスポンシブ対応END */
+
+ .section01-btn-box{
+   padding: 10% 20% 0;
+ }
+
+/* section01 END*/
+
+/* section02 START*/
+
+.section02{
+  padding: 10% 0;
+  background-color: #cac8b7;
+  color: #fff;
+}
+
+.back {
+  background-image: url("../img2/pen.png");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.dorayaki{
+  margin: 130px 0px;
+}
+
+/* section02 END*/
+
+/* section03 START*/
+
+.section03{
+  background-color: #cac8b7;
+  color: #1a1a1a;
+}
+
+.section03-info{
+  padding-bottom: 10%;
+  /* color: #fff; */
+}
+
+.section03-point-back{
+  background-color: red;
+  width: 135px;
+  margin: 5px;
+  color: #fff;
+}
+
+.section03-point{
+  font-size: 24px;
+  padding: 3px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.text{
+  font-family: serif;
+  font-weight: bold;
+}
+
+.text2{
+  font-family: serif;
+}
+
+/* こだわり部分のレスポンス */
+
+@media (min-width: 992px) {
+  .text {
+    font-size: 1.9vw;
+  }
+ }
+ 
+ @media (max-width: 991.98px) {
+  .text {
+    font-size: 1.8vw;
+  }
+ }
+ 
+ @media (max-width: 767.98px) {
+  .text {
+    font-size: 5.8vw;
+  }
+ }
+ 
+ @media (max-width: 575.98px) {
+  .text {
+    font-size: 5.1vw;
+  }
+  .info{
+    padding: 0px;
+  }
+ }
+
+/* section03 END*/
+
+/* section04 START*/
+
+.section04{
+  background-color: #eeeeef;
+  color: #1a1a1a;
+}
+
+.section04-box{
+  margin: 0% 10% 10%;
+  padding-top: 10%;
+}
+
+.section04-sentence{
+  font-size: 2.5vw;
+}
+
+
+.section04-set-box{
+  margin:0px 20%;
+}
+
+.section04-set-title{
+  font-family: serif;
+  line-height: 1.5;
+}
+
+.section04-charactor{
+  width: 60%;
+  height: auto;
+}
+
+
+
+/* お得セットのレスポンス */
+
+@media (min-width: 992px){
+  .otoku{
+    writing-mode:vertical-lr;
+    font-size: 2.8vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 2%;
+  }
+
+  .section04-charactor{
+    width: 35%;
+    height: auto;
+  }
+
+  .section04-soryo-back{
+    background-color: red;
+    border-radius: 100vh;
+    max-width: 13%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30%;
+  }
+  
+  .soryo-text{
+    color: #fff;
+    margin: 0px;
+    font-size: 2vw;
+    padding: 9%;
+  }
+  
+  .money{
+    font-weight: bold;
+    padding-right: 90px;
+    margin-left: 0%;
+    font-size: 3vw;
+    padding-left: 0%;
+  }
+  
+  .money-sub{
+    font-weight: normal;
+    font-size: 2vw;
+    padding-left: 5%;
+  }
+  
+  .content1{
+    border-radius: 8%;
+    width: 50%;
+    height: auto;
+  }
+  
+  .section04-list{
+    list-style: none;
+    font-family: serif;
+    padding-left: 0px;
+    font-size: 2vw;
+    margin: 5% 0 5% 0;
+  }
+}
+
+@media (max-width: 991.98px){
+  .otoku{
+    writing-mode:vertical-lr;
+    font-size: 4vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 2%;
+  }
+
+  .section04-charactor{
+    width: 50%;
+    height: auto;
+  }
+
+  .section04-soryo-back{
+    background-color: red;
+    border-radius: 100vh;
+    max-width: 29%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15%;
+  }
+  
+  .soryo-text{
+    color: #fff;
+    margin: 0px;
+    font-size: 4.5vw;
+    padding: 3%;
+  }
+  
+  .money{
+    font-weight: bold;
+    padding-right: 0px;
+    margin-left: -3%;
+    font-size: 6.5vw;
+    padding-left: 0%;
+  }
+  
+  .money-sub{
+    font-weight: normal;
+    font-size: 2vw;
+    padding-left: 5%;
+  }
+  
+  .content1{
+    border-radius: 8%;
+    width: 80%;
+    height: auto;
+  }
+  
+  .section04-list{
+    list-style: none;
+    font-family: serif;
+    padding-left: 0px;
+    font-size: 3.5vw;
+    margin: 10% 0 20% 0;
+  }
+}
+
+@media (max-width: 767.98px){
+  .otoku{
+    writing-mode:vertical-lr;
+    font-size: 4vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 2%;
+  }
+
+  .section04-charactor{
+    width: 55%;
+    height: auto;
+  }
+
+  .section04-soryo-back{
+    background-color: red;
+    border-radius: 100vh;
+    max-width: 26%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15%;
+  }
+  
+  .soryo-text{
+    color: #fff;
+    margin: 0px;
+    font-size: 4vw;
+    padding: 3%;
+  }
+  
+  .money{
+    font-weight: bold;
+    font-size: 6vw;
+    padding-right: 0px;
+    padding-left: 0%;
+    margin-left: -3%;
+    margin: auto 0px;
+  }
+  
+  .money-sub{
+    font-weight: normal;
+    font-size: 2vw;
+    padding-left: 5%;
+  }
+  
+  .content1{
+    border-radius: 8%;
+    width: 90%;
+    height: auto;
+  }
+  
+  .section04-list{
+    list-style: none;
+    font-family: serif;
+    padding-left: 0px;
+    font-size: 4vw;
+    margin: 10% 0 20% 0;
+  }
+}
+
+@media (max-width: 575.98px){
+  .otoku{
+    writing-mode:vertical-lr;
+    font-size: 5vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 2%;
+  }
+
+  .section04-charactor{
+    width: 60%;
+    height: auto;
+  }
+
+  .section04-soryo-back{
+    background-color: red;
+    border-radius: 100vh;
+    max-width: 38%;
+    margin-left: 11%;
+    margin: auto;
+  }
+  
+  .soryo-text{
+    color: #fff;
+    margin: 0px;
+    font-size: 5vw;
+    padding: 3%;
+  }
+  
+  .money{
+    font-weight: bold;
+    font-size: 6vw;
+    padding-right: 0px;
+    padding-left: 0%;
+    margin-left: -3%;
+  }
+  
+  .money-sub{
+    font-weight: normal;
+    font-size: 2vw;
+    padding-left: 5%;
+  }
+  
+  .content1{
+    border-radius: 8%;
+    width: 100%;
+    height: auto;
+  }
+  
+  .section04-list{
+    list-style: none;
+    font-family: serif;
+    padding-left: 0px;
+    font-size: 3.7vw;
+    margin: 10% 0 20% 0;
+  }
+}
+
+  /* 以下ボタンのCSS */
+  a.btn--red.btn--cubic{
+    background-color: #13ae67;
+    color: #fff;
+    font-size: 2.5vw;
+    margin-bottom: 10%;
+    width: 80%;
+  }
+  a.btn--red.btn--cubic {
+    border-bottom: 5px solid #0e7a46;
+  }
+  a.btn--red.btn--cubic:hover {
+    margin-top: 3px;
+    border-bottom: 2px solid #0e7a46;
+    font-weight: bold;
+  }
+  a.btn--radius {
+    border-radius: 100vh;
+  }
+  .fa-position-right {
+    position: absolute;
+    top: calc(50% - .5em);
+    right: 1rem;
+  }
+  /* 以上ボタンCSS */
+  
+/* section04 END*/
+
+/* section05 START*/
+
+.section05{
+  background-color: #e3e4df;
+  color: #1a1a1a;
+  padding: 20%;
+}
+
+.section05-charactor {
+  padding-bottom: 3%;
+}
+
+/* 商品一覧のレスポンシブ */
+
+@media (min-width: 992px){
+  .otoku2{
+    writing-mode:vertical-lr;
+    font-size: 2.8vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 991.98px){
+  .otoku2{
+    writing-mode:vertical-lr;
+    font-size: 4vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 767.98px){
+  .otoku2{
+    writing-mode:vertical-lr;
+    font-size: 4vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 575.98px){
+  .otoku2{
+    writing-mode:vertical-lr;
+    font-size: 5vw;
+    border-right: solid 1px;
+    font-family: serif;
+    margin-top: 5%;
+  }
+}
+
+/* section05 END*/
+
+/* section06 START*/
+
+.section06{
+  background-color: #e3e4df;
+  color: #1a1a1a;
+}
+
+.section06-product01-back,.section06-product03-back{
+  margin-bottom: 21%;
+  position: relative;
+}
+
+.section06-product02-back,.section06-product04-back{
+  margin-bottom: 21%;
+  text-align: right;
+  position: relative;
+}
+
+.section06-product05-back{
+  padding-bottom: 21%;
+  position: relative;
+}
+
+.section06-product01-img,.section06-product02-img,.section06-product03-img{
+  padding-top: 5%;
+}
+
+.section06-product04-img{
+  padding-top: 5.5%;
+}
+
+.section06-product05-img{
+  padding-top: 10%;
+}
+
+/* 各種どらやきのレスポンシブ */
+/* 992px以上 */
+@media (min-width: 992px) {
+  .section06-product01-img,.section06-product02-img,.section06-product03-img,.section06-product04-img,.section06-product05-img {
+    width: 75%;
+    height: auto;
+  }
+  .section06-product01-tag,.section06-product02-tag,.section06-product03-tag,.section06-product04-tag,.section06-product05-tag{
+    width: 7.5%;
+    height: auto;
+  }
+  .section06-product01-tag,.section06-product03-tag,.section06-product05-tag{
+    position: absolute;
+    left: 64%;
+  }
+  .section06-product02-tag,.section06-product04-tag{
+    position: absolute;
+    left: 28%;
+  }
+  .section06-text{
+    padding-top: 7%;
+    padding-right: 10%;
+    padding-left: 25%;
+  }
+ }
+ 
+ /* 991px未満 */
+ @media (max-width: 991.98px) {
+  .section06-product01-img,.section06-product02-img,.section06-product03-img,.section06-product04-img,.section06-product05-img {
+    width: 78%;
+    height: auto;
+  }
+  .section06-product01-tag,.section06-product02-tag,.section06-product03-tag,.section06-product04-tag,.section06-product05-tag{
+    width: 8%;
+    height: auto;
+  }
+  .section06-product01-tag,.section06-product03-tag,.section06-product05-tag{
+    position: absolute;
+    left: 67%;
+  }
+  .section06-product02-tag,.section06-product04-tag{
+    position: absolute;
+    left: 25%;
+  }
+  .section06-text{
+    padding-top: 7%;
+    padding-right: 10%;
+    padding-left: 22%;
+  }
+ }
+ 
+ /* 767px未満 */
+ @media (max-width: 767.98px) {
+  .section06-product01-img,.section06-product02-img,.section06-product03-img,.section06-product04-img,.section06-product05-img {
+    width: 80%;
+    height: auto;
+  }
+  .section06-product01-tag,.section06-product02-tag,.section06-product03-tag,.section06-product04-tag,.section06-product05-tag{
+    width: 9%;
+    height: auto;
+  }
+  .section06-product01-tag,.section06-product03-tag,.section06-product05-tag{
+    position: absolute;
+    left: 68%;
+  }
+  .section06-product02-tag,.section06-product04-tag{
+    position: absolute;
+    left: 25%;
+  }
+  .section06-text{
+    padding-top: 11%;
+    padding-right: 10%;
+    padding-left: 20%;
+  }
+ }
+ /* 575px未満 */
+ @media (max-width: 575.98px) {
+  .section06-product01-img,.section06-product02-img,.section06-product03-img,.section06-product04-img,.section06-product05-img {
+    width: 85%;
+    height: auto;
+  }
+  .section06-product01-tag,.section06-product02-tag,.section06-product03-tag,.section06-product04-tag,.section06-product05-tag{
+    width: 10%;
+    height: auto;
+  }
+  .section06-product01-tag,.section06-product03-tag,.section06-product05-tag{
+    position: absolute;
+    left: 70%;
+  }
+  .section06-product02-tag,.section06-product04-tag{
+    position: absolute;
+    left: 20%;
+  }
+  .section06-text{
+    padding-top: 14%;
+    padding-right: 10%;
+    padding-left: 15%;
+  }
+}
+
+.section06-text{
+  text-align: left;
+  font-size: 2.5vw;
+  font-family: serif;
+}
+
+/* section06 END */
+
+/* section07 START  */
+
+.section07{
+  background-color: #eeeeef;
+  color: #1a1a1a;
+}
