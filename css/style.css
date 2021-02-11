@@ -1,3 +1,16 @@
+/* @media (min-width: 992px){
+
+}
+@media (max-width: 991.98px){
+
+}
+@media (max-width: 767.98px){
+
+}
+@media (max-width: 575.98px){
+  
+} */
+
 *{
   letter-spacing: 0.3px;
 }
@@ -16,6 +29,26 @@ header h1{
   text-align: center;
   font-weight: bold;
   font-size: 5vw;
+}
+
+.orner01{
+  position: relative;
+}
+
+.akanemaru-tate{
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 0%;
+  left: 80%;
+}
+
+.akanemaru-yoko{
+  position: absolute;
+  width: 60%;
+  height: auto;
+  top: 5%;
+  left: 0%;
 }
 
 /* section01 START*/
@@ -53,6 +86,7 @@ header h1{
   margin-bottom: 0px;
   font-family: serif;
 }
+
 
 
 /* トップのレスポンシブ */
@@ -244,19 +278,18 @@ header h1{
 /* section04 START*/
 
 .section04{
-  background-color: #eeeeef;
+  background-color: #fff;
   color: #1a1a1a;
 }
 
 .section04-box{
-  margin: 0% 10% 10%;
+  margin: 0% 10% 3%;
   padding-top: 10%;
 }
 
 .section04-sentence{
   font-size: 2.5vw;
 }
-
 
 .section04-set-box{
   margin:0px 20%;
@@ -278,267 +311,518 @@ header h1{
 
 @media (min-width: 992px){
   .otoku{
-    writing-mode:vertical-lr;
-    font-size: 2.8vw;
-    border-right: solid 1px;
+    font-size: 1.5vw;
     font-family: serif;
     margin-top: 2%;
   }
-
   .section04-charactor{
-    width: 35%;
+    width: 10%;
     height: auto;
   }
 
-  .section04-soryo-back{
-    background-color: red;
-    border-radius: 100vh;
-    max-width: 13%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 30%;
+  .columbox{
+    padding-left: 20%; 
+    padding-right: 20%;
   }
-  
-  .soryo-text{
-    color: #fff;
-    margin: 0px;
-    font-size: 2vw;
-    padding: 9%;
-  }
-  
-  .money{
-    font-weight: bold;
-    padding-right: 90px;
-    margin-left: 0%;
-    font-size: 3vw;
-    padding-left: 0%;
-  }
-  
-  .money-sub{
-    font-weight: normal;
-    font-size: 2vw;
-    padding-left: 5%;
-  }
-  
   .content1{
-    border-radius: 8%;
-    width: 50%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 40px;
+    width: 100%;
     height: auto;
   }
-  
   .section04-list{
     list-style: none;
     font-family: serif;
     padding-left: 0px;
-    font-size: 2vw;
-    margin: 5% 0 5% 0;
+    font-size: 1.5vw;
+    margin: 0px;
+    padding: 5% 0 5% 0;
+    background-color: #eeeeef;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 0px;
+  }
+  .columbox2{
+    padding-left: 25%; 
+    padding-right: 25%;
+    padding-top: 5%;
+  }
+  .soryo-icon{
+    width: 109%;
+  }
+  .text-back{
+    text-align: left;
+    margin: auto;
+    padding-left: 6%;
+  }
+  .zeikomi{
+    font-family: serif;
+    font-size: 3vw;
+    margin: 0px;
+  }
+  .en{
+    font-family: serif;
+    font-size: 3.6vw;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .money{
+    font-size: 8.8vw;
+    color: red;
+    font-family: Times New Roman;
+    font-style: oblique;
+    padding-right: 5%;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+  }
+  .set-text-back{
+    padding-left: 20%; 
+    padding-right: 20%;
   }
 }
 
 @media (max-width: 991.98px){
   .otoku{
-    writing-mode:vertical-lr;
     font-size: 4vw;
-    border-right: solid 1px;
     font-family: serif;
     margin-top: 2%;
   }
-
   .section04-charactor{
     width: 50%;
     height: auto;
   }
 
-  .section04-soryo-back{
-    background-color: red;
-    border-radius: 100vh;
-    max-width: 29%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 15%;
-  }
-  
-  .soryo-text{
-    color: #fff;
-    margin: 0px;
-    font-size: 4.5vw;
-    padding: 3%;
-  }
-  
-  .money{
-    font-weight: bold;
-    padding-right: 0px;
-    margin-left: -3%;
-    font-size: 6.5vw;
-    padding-left: 0%;
-  }
-  
-  .money-sub{
-    font-weight: normal;
-    font-size: 2vw;
-    padding-left: 5%;
-  }
-  
   .content1{
-    border-radius: 8%;
-    width: 80%;
-    height: auto;
-  }
-  
-  .section04-list{
-    list-style: none;
-    font-family: serif;
-    padding-left: 0px;
-    font-size: 3.5vw;
-    margin: 10% 0 20% 0;
-  }
-}
-
-@media (max-width: 767.98px){
-  .otoku{
-    writing-mode:vertical-lr;
-    font-size: 4vw;
-    border-right: solid 1px;
-    font-family: serif;
-    margin-top: 2%;
-  }
-
-  .section04-charactor{
-    width: 55%;
-    height: auto;
-  }
-
-  .section04-soryo-back{
-    background-color: red;
-    border-radius: 100vh;
-    max-width: 26%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 15%;
-  }
-  
-  .soryo-text{
-    color: #fff;
-    margin: 0px;
-    font-size: 4vw;
-    padding: 3%;
-  }
-  
-  .money{
-    font-weight: bold;
-    font-size: 6vw;
-    padding-right: 0px;
-    padding-left: 0%;
-    margin-left: -3%;
-    margin: auto 0px;
-  }
-  
-  .money-sub{
-    font-weight: normal;
-    font-size: 2vw;
-    padding-left: 5%;
-  }
-  
-  .content1{
-    border-radius: 8%;
-    width: 90%;
-    height: auto;
-  }
-  
-  .section04-list{
-    list-style: none;
-    font-family: serif;
-    padding-left: 0px;
-    font-size: 4vw;
-    margin: 10% 0 20% 0;
-  }
-}
-
-@media (max-width: 575.98px){
-  .otoku{
-    writing-mode:vertical-lr;
-    font-size: 5vw;
-    border-right: solid 1px;
-    font-family: serif;
-    margin-top: 2%;
-  }
-
-  .section04-charactor{
-    width: 60%;
-    height: auto;
-  }
-
-  .section04-soryo-back{
-    background-color: red;
-    border-radius: 100vh;
-    max-width: 38%;
-    margin-left: 11%;
-    margin: auto;
-  }
-  
-  .soryo-text{
-    color: #fff;
-    margin: 0px;
-    font-size: 5vw;
-    padding: 3%;
-  }
-  
-  .money{
-    font-weight: bold;
-    font-size: 6vw;
-    padding-right: 0px;
-    padding-left: 0%;
-    margin-left: -3%;
-  }
-  
-  .money-sub{
-    font-weight: normal;
-    font-size: 2vw;
-    padding-left: 5%;
-  }
-  
-  .content1{
-    border-radius: 8%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
     width: 100%;
     height: auto;
   }
-  
   .section04-list{
     list-style: none;
     font-family: serif;
     padding-left: 0px;
     font-size: 3.7vw;
-    margin: 10% 0 20% 0;
+    margin-left: 0px;
+    margin-bottom: 10%;
+    padding: 5% 0 5% 0;
+    background-color: #eeeeef;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  .soryo-icon{
+    width: 105%;
+  }
+  .text-back{
+    text-align: left;
+    margin: auto;
+  }
+  .zeikomi{
+    font-family: serif;
+    font-size: 5.5vw;
+    margin: 0px;
+  }
+  .en{
+    font-family: serif;
+    font-size: 7vw;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .money{
+    font-size: 16vw;
+    color: red;
+    font-family: Times New Roman;
+    font-style: oblique;
+    padding-right: 5%;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
   }
 }
 
-  /* 以下ボタンのCSS */
-  a.btn--red.btn--cubic{
-    background-color: #13ae67;
-    color: #fff;
-    font-size: 2.5vw;
-    margin-bottom: 10%;
-    width: 80%;
+@media (max-width: 767.98px){
+  .otoku{
+    font-size: 4vw;
+    font-family: serif;
+    margin-top: 2%;
   }
+  .section04-charactor{
+    width: 55%;
+    height: auto;
+  }
+  .content1{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 100%;
+    height: auto;
+  }
+  .section04-list{
+    list-style: none;
+    font-family: serif;
+    padding-left: 0px;
+    font-size: 3.7vw;
+    margin-bottom: 10%;
+    padding: 5% 0 5% 0;
+    background-color: #eeeeef;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  .soryo-icon{
+    width: 105%;
+  }
+  .text-back{
+    text-align: left;
+    margin: auto;
+  }
+  .zeikomi{
+    font-family: serif;
+    font-size: 5.5vw;
+    margin: 0px;
+  }
+  .en{
+    font-family: serif;
+    font-size: 7vw;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .money{
+    font-size: 16vw;
+    color: red;
+    font-family: Times New Roman;
+    font-style: oblique;
+    padding-right: 5%;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+  }
+}
+
+@media (max-width: 575.98px){
+  .otoku{
+    font-size: 5vw;
+    font-family: serif;
+    margin-top: 2%;
+  }
+
+  .section04-charactor{
+    width: 20%;
+    height: auto;
+  }
+  
+  .content1{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 100%;
+    height: auto;
+  }
+  .section04-list{
+    list-style: none;
+    font-family: serif;
+    padding-left: 0px;
+    font-size: 3.7vw;
+    margin-bottom: 10%;
+    padding: 5% 0 5% 0;
+    background-color: #eeeeef;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  .soryo-icon{
+    width: 105%;
+  }
+  .text-back{
+    text-align: left;
+    margin: auto;
+  }
+  .zeikomi{
+    font-family: serif;
+    font-size: 5.5vw;
+    margin: 0px;
+  }
+  .en{
+    font-family: serif;
+    font-size: 7vw;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .money{
+    font-size: 16vw;
+    color: red;
+    font-family: Times New Roman;
+    font-style: oblique;
+    padding-right: 5%;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+  }
+
+}
+
+/* border-top-left-radius: 10px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 40px; */
+
+  /* 以下ボタンのCSS */
+
   a.btn--red.btn--cubic {
     border-bottom: 5px solid #0e7a46;
   }
   a.btn--red.btn--cubic:hover {
-    margin-top: 3px;
+    /* margin-top: 3px; */
     border-bottom: 2px solid #0e7a46;
     font-weight: bold;
   }
   a.btn--radius {
-    border-radius: 100vh;
+    border-radius: 15px;
   }
   .fa-position-right {
     position: absolute;
     top: calc(50% - .5em);
     right: 1rem;
   }
+
+  @media (min-width: 992px){
+    a.btn--red.btn--cubic{
+      background-color: #13ae67;
+      color: #fff;
+      font-size: 2.5vw;
+      /* margin-bottom: 10%; */
+      padding: 3%;
+      width: 70%;
+    }
+  }
+  @media (max-width: 575.98px){
+    a.btn--red.btn--cubic{
+      background-color: #13ae67;
+      color: #fff;
+      font-size: 4vw;
+      /* margin-bottom: 10%; */
+      padding: 5%;
+      width: 100%;
+    }
+  }
+
   /* 以上ボタンCSS */
   
 /* section04 END*/
+
+/* section-4-5 START*/
+
+.orner02{
+  position: relative;
+}
+
+.kabukimon-logo{
+  position: absolute;
+  width: 60%;
+  height: auto;
+  top: 8%;
+  left: 0%;
+}
+
+.section-4-5{
+  background-color: #efefe5;
+}
+
+.section-4-5-top{
+  background-image: url("../img2/kabukimon/bg_round.png");
+  background-size: 110%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.nettori-top{
+  writing-mode:vertical-lr;
+  font-size: 5.5vw;
+  font-family: serif;
+  margin-top: 5%;
+  position: absolute;
+  top: 3%;
+  left: 10%;
+}
+
+.sittori-top{
+  writing-mode:vertical-lr;
+  font-size: 5.5vw;
+  font-family: serif;
+  margin-top: 5%;
+  position: absolute;
+  top: 33%;
+  left: 77%;
+}
+
+.sec-4-5-top-img{
+  padding: 20% 0 30% 0;
+}
+
+/* ねっとり */
+
+.nettori-back{
+  background-color: red;
+  width: 140px;
+  margin: 5px;
+  color: #fff;
+  border-radius: 100px;
+}
+.nettori{
+  font-weight: normal;
+  font-size: 24px;
+  padding: 1% 15%;
+  font-family: serif;
+  font-weight: bold;
+}
+
+/* しっとり */
+.sittori-back{
+  background-color: red;
+  width: 140px;
+  margin: 5px;
+  color: #fff;
+  border-radius: 100px;
+}
+.sittori{
+  font-weight: normal;
+  font-size: 24px;
+  padding: 1% 15%;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.nettori-block{
+  margin-bottom: 20%;
+  padding: 0px 7%;
+}
+
+.sittori-block{
+  margin-bottom: 20%;
+  padding: 0px 7%;
+}
+
+
+/* ネットり・しっとり、レスポンシブ対応 */
+.nettori-text,.sittori-text{
+  font-family: serif;
+  font-weight: bold;
+}
+@media (min-width: 992px){
+  .nettori-text,.sittori-text{
+    font-size: 2.6vw;
+  }
+
+  .nettori-block{
+    margin-bottom: 10%;
+    padding: 0px 3%;
+  }
+  
+  .sittori-block{
+    margin-bottom: 10%;
+    padding: 0px 3%;
+  }
+}
+@media (max-width: 991.98px){
+  .nettori-text,.sittori-text{
+    font-size: 2.4vw;
+  }
+
+  .nettori-block{
+    margin-bottom: 20%;
+    padding: 0px 7%;
+  }
+  
+  .sittori-block{
+    margin-bottom: 20%;
+    padding: 0px 7%;
+  }
+}
+@media (max-width: 767.98px){
+  .nettori-text,.sittori-text{
+    font-size: 2.4vw;
+  }
+
+  .nettori-block{
+    margin-bottom: 20%;
+    padding: 0px 7%;
+  }
+  
+  .sittori-block{
+    margin-bottom: 20%;
+    padding: 0px 7%;
+  }
+}
+@media (max-width: 575.98px){
+  .nettori-text,.sittori-text{
+    font-size: 5vw;
+  }
+
+  .nettori-block{
+    margin-bottom: 20%;
+    padding: 0px 7%;
+  }
+  
+  .sittori-block{
+    margin-bottom: 20%;
+    padding: 0px 7%;
+  }
+}
+
+
+
+
+/* ビデオのレスポンシブ */
+@media (min-width: 992px){
+  .video-box{
+    text-align: center;
+    padding: 0% 7% 0 7%;
+  }
+
+  .video{
+    width: 60%;
+    height: auto;
+  }
+}
+@media (max-width: 991.98px){
+  .video-box{
+    text-align: center;
+    padding: 5% 7% 0 7%;
+  }
+
+  .video{
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 767.98px){
+
+  .video-box{
+    text-align: center;
+    padding: 5% 7% 0 7%;
+  }
+
+  .video{
+    width: 100%;
+    height: auto;
+    padding: ;
+    margin: ;
+  }
+}
+@media (max-width: 575.98px){
+  .video-box{
+    text-align: center;
+    padding: 5% 7% 0 7%;
+  }
+
+  .video{
+    width: 100%;
+    height: auto;
+  }
+}
+
 
 /* section05 START*/
 
@@ -556,9 +840,7 @@ header h1{
 
 @media (min-width: 992px){
   .otoku2{
-    writing-mode:vertical-lr;
     font-size: 2.8vw;
-    border-right: solid 1px;
     font-family: serif;
     margin-top: 5%;
   }
@@ -566,9 +848,7 @@ header h1{
 
 @media (max-width: 991.98px){
   .otoku2{
-    writing-mode:vertical-lr;
     font-size: 4vw;
-    border-right: solid 1px;
     font-family: serif;
     margin-top: 5%;
   }
@@ -576,9 +856,7 @@ header h1{
 
 @media (max-width: 767.98px){
   .otoku2{
-    writing-mode:vertical-lr;
     font-size: 4vw;
-    border-right: solid 1px;
     font-family: serif;
     margin-top: 5%;
   }
@@ -586,15 +864,14 @@ header h1{
 
 @media (max-width: 575.98px){
   .otoku2{
-    writing-mode:vertical-lr;
     font-size: 5vw;
-    border-right: solid 1px;
     font-family: serif;
     margin-top: 5%;
   }
 }
 
 /* section05 END*/
+
 
 /* section06 START*/
 
