@@ -533,12 +533,17 @@ header h1{
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
   }
+  .columbox2{
+    padding-left: 4%; 
+    padding-right: 2%;
+    padding-top: 5%;
+  }
   .soryo-icon{
     width: 105%;
   }
   .text-back{
     text-align: left;
-    margin: auto;
+    padding-right:0px;
   }
   .zeikomi{
     font-family: serif;
@@ -547,16 +552,16 @@ header h1{
   }
   .en{
     font-family: serif;
-    font-size: 7vw;
+    font-size: 5vw;
     font-weight: bold;
     margin: 0px;
   }
   .money{
-    font-size: 16vw;
+    font-size: 12vw;
     color: red;
     font-family: Times New Roman;
     font-style: oblique;
-    padding-right: 5%;
+    padding-right: 0%;
     font-weight: normal;
     letter-spacing: 0.2rem;
   }
