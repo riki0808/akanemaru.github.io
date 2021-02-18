@@ -108,7 +108,7 @@ header h1{
   }
   .section01-sentence{
     padding-left: 5%;
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
  }
  @media (max-width: 991.98px) {
@@ -129,7 +129,7 @@ header h1{
   }
   .section01-sentence{
     padding-left: 1%;
-    font-size: 1.9vw;
+    font-size: 2.4vw;
   }
  }
  @media (max-width: 767.98px) {
@@ -150,14 +150,14 @@ header h1{
   }
   .section01-sentence{
     padding-left: 8%;
-    font-size: 2vw;
+    font-size: 2.3vw;
   }
  }
  @media (max-width: 575.98px) {
   .section01-img-box{
     text-align: center;
     position: relative;
-    bottom: 100px;
+    bottom: 0px;
   }
   .section01-img{
     width: 53%;
@@ -171,12 +171,13 @@ header h1{
   .section01-title{
     text-align: center;
     padding-left: 0px;
+    padding-top: 30%;
     font-size: 6vw;
   }
   .section01-sentence{
     text-align: center;
     padding-left: 0px;
-    font-size: 3.4vw;
+    font-size: 4vw;
   }
  }
  /* レスポンシブ対応END */
@@ -240,8 +241,29 @@ header h1{
   font-weight: bold;
 }
 
-.text2{
-  font-family: serif;
+@media (min-width: 992px){
+  .text2{
+    font-family: serif;
+    font-size: 1vw;
+  }
+}
+@media (max-width: 991.98px){
+  .text2{
+    font-family: serif;
+    font-size: 2vw;
+  }
+}
+@media (max-width: 767.98px){
+  .text2{
+    font-family: serif;
+    font-size: 4vw;
+  }
+}
+@media (max-width: 575.98px){
+  .text2{
+    font-family: serif;
+    font-size: 4vw;
+  }
 }
 
 /* こだわり部分のレスポンス */
@@ -375,7 +397,7 @@ header h1{
     font-family: Times New Roman;
     font-style: oblique;
     padding-right: 5%;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: 0.2rem;
   }
   .set-text-back{
@@ -439,7 +461,7 @@ header h1{
     font-family: Times New Roman;
     font-style: oblique;
     padding-right: 5%;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: 0.2rem;
   }
 }
@@ -497,7 +519,7 @@ header h1{
     font-family: Times New Roman;
     font-style: oblique;
     padding-right: 5%;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: 0.2rem;
   }
 }
@@ -562,7 +584,7 @@ header h1{
     font-family: Times New Roman;
     font-style: oblique;
     padding-right: 0%;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: 0.2rem;
   }
 
@@ -575,41 +597,60 @@ border-bottom-left-radius: 40px; */
 
   /* 以下ボタンのCSS */
 
-  a.btn--red.btn--cubic {
-    border-bottom: 5px solid #0e7a46;
-  }
-  a.btn--red.btn--cubic:hover {
-    /* margin-top: 3px; */
-    border-bottom: 2px solid #0e7a46;
-    font-weight: bold;
-  }
-  a.btn--radius {
-    border-radius: 15px;
-  }
-  .fa-position-right {
-    position: absolute;
-    top: calc(50% - .5em);
-    right: 1rem;
-  }
-
   @media (min-width: 992px){
-    a.btn--red.btn--cubic{
-      background-color: #13ae67;
-      color: #fff;
-      font-size: 2.5vw;
-      /* margin-bottom: 10%; */
-      padding: 3%;
-      width: 70%;
+    .btn1{
+      width: 30%;
+      height: auto;
+    }
+    .btn2{
+      width: 31.6%;
+      height: auto;
+    }
+    .btn3{
+      width: 33%;
+      height: auto;
+    }
+  }
+  @media (max-width: 991.98px){
+    .btn1{
+      width: 50%;
+      height: auto;
+    }
+    .btn2{
+      width: 59%;
+      height: auto;
+    }
+    .btn3{
+      width: 56%;
+      height: auto;
+    }
+  }
+  @media (max-width: 767.98px){
+    .btn1{
+      width: 50%;
+      height: auto;
+    }
+    .btn2{
+      width: 59%;
+      height: auto;
+    }
+    .btn3{
+      width: 56%;
+      height: auto;
     }
   }
   @media (max-width: 575.98px){
-    a.btn--red.btn--cubic{
-      background-color: #13ae67;
-      color: #fff;
-      font-size: 4vw;
-      /* margin-bottom: 10%; */
-      padding: 5%;
-      width: 100%;
+    .btn1{
+      width: 75%;
+      height: auto;
+    }
+    .btn2{
+      width: 90%;
+      height: auto;
+    }
+    .btn3{
+      width: 85%;
+      height: auto;
     }
   }
 
@@ -642,28 +683,62 @@ border-bottom-left-radius: 40px; */
   position: relative;
 }
 
-.nettori-top{
-  writing-mode:vertical-lr;
-  font-size: 5.5vw;
-  font-family: serif;
-  margin-top: 5%;
-  position: absolute;
-  top: 3%;
-  left: 10%;
+/* かぶきもんのきるぬき画像のレスポンシブ */
+
+@media (min-width: 992px){
+  .nettori-top{
+    writing-mode:vertical-lr;
+    font-size: 4vw;
+    font-family: serif;
+    margin-top: 5%;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+  }
+  
+  .sittori-top{
+    writing-mode:vertical-lr;
+    font-size: 4vw;
+    font-family: serif;
+    margin-top: 5%;
+    position: absolute;
+    top: 28%;
+    left: 74%;
+  }
+  
+  .sec-4-5-top-img{
+    padding: 20% 0 30% 0;
+    width: 25%;
+    height: auto;
+  }
 }
 
-.sittori-top{
-  writing-mode:vertical-lr;
-  font-size: 5.5vw;
-  font-family: serif;
-  margin-top: 5%;
-  position: absolute;
-  top: 33%;
-  left: 77%;
-}
-
-.sec-4-5-top-img{
-  padding: 20% 0 30% 0;
+@media (max-width: 575.98px){
+  .nettori-top{
+    writing-mode:vertical-lr;
+    font-size: 5.5vw;
+    font-family: serif;
+    margin-top: 5%;
+    position: absolute;
+    top: 3%;
+    left: 10%;
+  }
+  
+  .sittori-top{
+    writing-mode:vertical-lr;
+    font-size: 5.5vw;
+    font-family: serif;
+    margin-top: 5%;
+    position: absolute;
+    top: 33%;
+    left: 77%;
+  }
+  
+  .sec-4-5-top-img{
+    padding: 20% 0 30% 0;
+    width: 35%;
+    height: auto;
+  }
 }
 
 /* ねっとり */
@@ -831,6 +906,21 @@ border-bottom-left-radius: 40px; */
 
 /* section05 START*/
 
+
+@media (min-width: 992px){
+  .section05-charactordayo{
+    width: 18%;
+    height: auto;
+  }
+}
+
+@media (max-width: 575.98px){
+  .section05-charactordayo{
+    width: 30%;
+    height: auto;
+  }
+}
+
 .section05{
   background-color: #e3e4df;
   color: #1a1a1a;
@@ -936,6 +1026,7 @@ border-bottom-left-radius: 40px; */
     padding-top: 7%;
     padding-right: 10%;
     padding-left: 25%;
+    font-size: 2vw;
   }
  }
  
@@ -1010,12 +1101,12 @@ border-bottom-left-radius: 40px; */
     padding-top: 14%;
     padding-right: 10%;
     padding-left: 15%;
+    font-size: 3.3vw;
   }
 }
 
 .section06-text{
   text-align: left;
-  font-size: 2.5vw;
   font-family: serif;
 }
 
