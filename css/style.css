@@ -309,9 +309,7 @@ header h1{
   padding-top: 10%;
 }
 
-.section04-sentence{
-  font-size: 2.5vw;
-}
+
 
 .section04-set-box{
   margin:0px 20%;
@@ -327,7 +325,16 @@ header h1{
   height: auto;
 }
 
-
+@media (min-width: 992px){
+  .section04-sentence{
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 575.98px){
+  .section04-sentence{
+    font-size: 4vw;
+  }
+}
 
 /* お得セットのレスポンス */
 
@@ -1101,7 +1108,7 @@ border-bottom-left-radius: 40px; */
     padding-top: 14%;
     padding-right: 10%;
     padding-left: 15%;
-    font-size: 3.3vw;
+    font-size: 4.5vw;
   }
 }
 
