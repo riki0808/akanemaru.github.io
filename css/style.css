@@ -11,6 +11,15 @@
   
 } */
 
+@media (min-width: 992px){
+
+}
+@media (max-width: 575.98px){
+  
+}
+
+
+
 *{
   letter-spacing: 0.3px;
 }
@@ -1124,4 +1133,393 @@ border-bottom-left-radius: 40px; */
 .section07{
   background-color: #eeeeef;
   color: #1a1a1a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+    /* header START */
+  
+  .header-back{
+    position: relative;
+  }
+  
+  .header-kabukimon{
+    width: 24%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 73%;
+  }
+  
+  .header-logo{
+    width: 30%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  .header-main{
+    width: 100%;
+    height: auto;
+  }
+  
+  /* header END */
+  
+
+  /* section1 START */
+/* PART1 */
+.section1-back{
+  background-image: url(../img2/sec1-saikounizeitakuna-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.section1-gohoubi{
+  color: #801d21;
+  font-size: 5.5vw;
+  font-family: ヒラギノ明朝 ProN,W6;
+  font-weight: bold;
+  padding: 2.5% 0;
+}
+/* PART1 */
+
+
+/* PART2 */
+.section1-set-title{
+  border-bottom: solid 0.3px black;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  margin: 0%;
+  font-size: 3.9vw;
+  font-family: ヒラギノ明朝 ProN;
+}
+
+.section1-subtitle{
+ color: #2a8031;
+ font-family: ヒラギノ明朝 ProN;
+ font-weight: bold;
+ font-size: 5vw;
+ padding: 4% 0 2% 0;
+}
+
+.section1-1980yen{
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.setion1-5set{
+ width: 50%;
+ height: auto;
+ padding: 3% 0 10%;
+}
+/* PART2 */
+
+/* PART3 */
+.section1-part3{
+  padding: 0% 4%;
+  text-align: center;
+}
+
+.sec1-3-product{
+  width: 55%;
+  height: auto;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.setmenu{
+  list-style: none;
+  text-align: center;
+  padding: 3% 0;
+  font-size: 2vw;
+  margin: 0% 22.5%;
+  background-color: #ededed;
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.sec1-3-arerugi{
+  text-align: center;
+  padding: 5% 0;
+}
+/* PART3 */
+
+/* PART4 */
+.section1-part4{
+  text-align: center;
+  background-image: url(../img2/anko-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 10%;
+}
+
+.sec1-4-sarani{
+  width: 50%;
+  height: auto;
+}
+
+.sec1-4-present{
+  width: 50%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.sec1-4-shape{
+  margin: 0% 6%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.sec1-4-ankopan{
+  width: 50%;
+  height: auto;
+}
+/* PART4 */
+
+/* PART5 */
+.section1-part5{
+  text-align: center;
+}
+
+.sec1-5-button{
+  width: 30%;
+  height: auto;
+  padding: 7% 0;
+}
+/* PART5 */
+
+/* footer START */
+.footer{
+  background-color: #f3f0eb;
+}
+
+.footer-main{
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  font-size: 3vw;
+}
+
+.copyrights{
+  text-align: center;
+  padding-bottom: 5%;
+  margin: 0;
+}
+/* footer END */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px){
+    /* header START */
+
+  .header-back{
+    position: relative;
+  }
+  
+  .header-kabukimon{
+    width: 24%;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 73%;
+  }
+  
+  .header-logo{
+    width: 30%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  .header-main{
+    width: 100%;
+    height: auto;
+  }
+  
+  /* header END */
+  
+  /* section1 START */
+/* PART1 */
+.section1-back{
+  background-image: url(../img2/sec1-saikounizeitakuna-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.section1-gohoubi{
+  color: #801d21;
+  font-size: 5.5vw;
+  font-family: ヒラギノ明朝 ProN,W6;
+  font-weight: bold;
+  padding: 2.5% 0;
+}
+/* PART1 */
+
+
+/* PART2 */
+.section1-set-title{
+  border-bottom: solid 0.3px black;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  margin: 0%;
+  font-size: 7vw;
+  font-family: ヒラギノ明朝 ProN;
+}
+
+.section1-subtitle{
+ color: #2a8031;
+ font-family: ヒラギノ明朝 ProN;
+ font-weight: bold;
+ font-size: 9vw;
+ padding: 4% 0 2% 0;
+}
+
+.section1-1980yen{
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.setion1-5set{
+ width: 90%;
+ height: auto;
+ padding: 3% 0 10%;
+}
+/* PART2 */
+
+/* PART3 */
+.section1-part3{
+  padding: 0% 4%;
+}
+
+.sec1-3-product{
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.setmenu{
+  list-style: none;
+  text-align: center;
+  padding: 5% 0;
+  font-size: 4vw;
+  margin: 0%;
+  background-color: #ededed;
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.sec1-3-arerugi{
+  text-align: center;
+  padding: 5% 0;
+}
+/* PART3 */
+
+/* PART4 */
+.section1-part4{
+  text-align: center;
+  background-image: url(../img2/anko-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 20%;
+}
+
+.sec1-4-sarani{
+  width: 90%;
+  height: auto;
+}
+
+.sec1-4-present{
+  width: 90%;
+  height: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.sec1-4-shape{
+  margin: 0% 6%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.sec1-4-ankopan{
+  width: 85%;
+  height: auto;
+}
+/* PART4 */
+
+/* PART5 */
+.section1-part5{
+  text-align: center;
+}
+
+.sec1-5-button{
+  width: 80%;
+  height: auto;
+  padding: 7% 0;
+}
+/* PART5 */
+
+/* footer START */
+.footer{
+  background-color: #f3f0eb;
+}
+
+.footer-main{
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  font-size: 3vw;
+}
+
+.copyrights{
+  text-align: center;
+  padding-bottom: 5%;
+  margin: 0;
+}
+/* footer END */
 }
